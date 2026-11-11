@@ -1,0 +1,2 @@
+PASS VST3 scan, load, stereo processing, state restore, native editor
+PLUGIN c.d.r.c plugins - RangeMaster latency=6 peak=0.146758

@@ -1,0 +1,54 @@
+Using SPARSE 1.3 as Direct Linear Solver
+Using SPARSE 1.3 as Direct Linear Solver
+Using SPARSE 1.3 as Direct Linear Solver
+
+Note: No compatibility mode selected!
+
+
+Circuit: independent pnp rangemaster netlist, si, boost rotation=0.5
+
+Doing analysis at TEMP = 26.827000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+v(base) = -1.09202e+00
+v(emitter) = -4.81182e-01
+v(collector) = -7.77386e+00
+Doing analysis at TEMP = 26.827000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+vdb(output) = -1.09239e+01
+Doing analysis at TEMP = 26.827000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+vdb(output) = 7.606517e+00
+Doing analysis at TEMP = 26.82700Using SPARSE 1.3 as Direct Linear Solver
+Using SPARSE 1.3 as Direct Linear Solver
+0 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+vdb(output) = 1.231634e+01
+Doing analysis at TEMP = 26.827000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+supply                                      -9
+input                                        0
+base                                  -1.09202
+collector                             -7.77386
+emitter                              -0.481182
+wiper                                 -8.88853
+output                                       0
+vin#branch                                   0
+vbat#branch                        0.000139439
+
+
+No. of Data Rows : 513079
+ngspice-43 done

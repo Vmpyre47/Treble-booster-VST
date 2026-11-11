@@ -1,0 +1,4 @@
+ge Boost=1 reference_RMS=3.1317710846291402 relative_RMS_error=0.1763127246552794% max_abs_error=0.03509716135999996V samples=48001
+ge Boost=0.5 reference_RMS=0.2858969971376935 relative_RMS_error=0.19113645438910007% max_abs_error=0.004346322395999969V samples=48001
+si Boost=1 reference_RMS=2.903473457280211 relative_RMS_error=0.32353095071720794% max_abs_error=0.053964621089999554V samples=48001
+si Boost=0.5 reference_RMS=0.2649868253895801 relative_RMS_error=0.35995136350854307% max_abs_error=0.00542909720000001V samples=48001

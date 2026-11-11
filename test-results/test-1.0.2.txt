@@ -1,0 +1,80 @@
+BIAS Ge B=1.01374 E=0.812647 C=6.93713 volts (polarity-normalised)
+PASS active-region DC operating point
+PASS zero-input silence and DC initialization
+PASS solver convergence at 100.000000 Hz
+PASS solver convergence at 1000.000000 Hz
+PASS solver convergence at 5000.000000 Hz
+GAIN Ge 100Hz=7.14349dB 1k=26.8538dB 5k=35.8317dB
+PASS treble emphasis above the bass band
+PASS plausible original-circuit treble gain
+PASS transistor large-signal compression
+PASS asymmetric saturation
+SOLVER small=0 big=0 residual=0
+PASS large-signal solver convergence
+PASS Boost zero routes wiper to AC ground
+BIAS Si B=1.09202 E=0.481182 C=7.77386 volts (polarity-normalised)
+PASS active-region DC operating point
+PASS zero-input silence and DC initialization
+PASS solver convergence at 100.000000 Hz
+PASS solver convergence at 1000.000000 Hz
+PASS solver convergence at 5000.000000 Hz
+GAIN Si 100Hz=9.82739dB 1k=28.3564dB 5k=33.0672dB
+PASS treble emphasis above the bass band
+PASS plausible original-circuit treble gain
+PASS transistor large-signal compression
+PASS asymmetric saturation
+SOLVER small=0 big=0 residual=0
+PASS large-signal solver convergence
+PASS Boost zero routes wiper to AC ground
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=44100 channels=1 wall=0.183868s peak=0.794465 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=44100 channels=2 wall=0.23189s peak=0.794465 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=48000 channels=1 wall=0.179857s peak=0.794465 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=48000 channels=2 wall=0.232006s peak=0.794465 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=96000 channels=1 wall=0.147581s peak=0.794465 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=96000 channels=2 wall=0.206829s peak=0.794465 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=192000 channels=1 wall=0.125123s peak=0.768924 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS bus setup
+PASS reported oversampling latency
+STRESS rate=192000 channels=2 wall=0.177724s peak=0.768924 failures=0
+PASS automation/noise solver convergence
+PASS finite output, block sizes 0/257/1023
+PASS stereo isolation with signal on left input only
+PASS all parameters survive state round trip
+PASS invalid state ignored
+PASS Master -12 dB scales output without changing distortion
+PASS NaN / infinity input does not contaminate state
+PASS editor material and Boost controls exist
+PASS editor click selects silicon in DSP
+PASS editor click selects germanium in DSP
+PASS host automation updates material switch
+PASS editor Boost reaches DSP
+PASS rendered actual JUCE editor preview
+RESULT 65 checks passed
